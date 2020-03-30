@@ -8,16 +8,6 @@ body {
 .content {
 }
 
-#sidebar {
-  background-color: white;
-  width: 25vw;
-  height: 100vh;
-  position: fixed;
-  overflow-x: auto;
-  left: 0px;
-  top: 0px;
-}
-
 #sidebar li {
   list-style: none;
   font-size: 14px;
@@ -35,17 +25,27 @@ body {
   /* color: LightSeaGreen; */
 }
 
+#sidebar {
+  background-color: white;
+  width: 21vw;
+  height: 100vh;
+  position: fixed;
+  overflow-x: auto;
+  left: 0px;
+  top: 0px;
+}
+
 #sidebar ul {
-  margin: 0px 3vw 0px 3vw;
+  margin: 0px 1vw 0px 3vw;
   padding: 0px;
 }
 
 #main {
-  width: 60vw;
+  width: 63vw;
   position: relative;
-  left: 20vw;
+  left: 21vw;
   top: 0px;
-  margin: 3vw 10vw; */
+  margin: 3vw 10vw 3vw 5vw; */
 }
 
 /* .feature {
